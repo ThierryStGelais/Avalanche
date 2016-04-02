@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: cea0291f386efd6428cd0a751afab28d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpritesheetP2_0
+    21300002: SpritesheetP2_1
+    21300004: SpritesheetP2_2
+    21300006: SpritesheetP2_3
+    21300008: SpritesheetP2_4
+    21300010: SpritesheetP2_5
+    21300012: SpritesheetP2_6
+    21300014: SpritesheetP2_7
+    21300016: SpritesheetP2_8
+    21300018: SpritesheetP2_9
+    21300020: SpritesheetP2_10
+    21300022: SpritesheetP2_11
+    21300024: SpritesheetP2_12
+    21300026: SpritesheetP2_13
+    21300028: SpritesheetP2_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SpritesheetP2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2422
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpritesheetP2_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2422
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpritesheetP2_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2422
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpritesheetP2_3
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2422
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpritesheetP2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1672
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpritesheetP2_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1672
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpritesheetP2_6
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1672
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpritesheetP2_7
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1672
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpritesheetP2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 922
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpritesheetP2_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 922
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpritesheetP2_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 922
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpritesheetP2_11
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 922
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpritesheetP2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpritesheetP2_13
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 172
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpritesheetP2_14
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 172
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 1f856182a1d32b34b8adafe881d83410
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SceneryObject_0
+    21300002: SceneryObject_1
+    21300004: SceneryObject_2
+    21300006: SceneryObject_3
+    21300008: SceneryObject_4
+    21300010: SceneryObject_5
+    21300012: SceneryObject_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SceneryObject_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 632
+        width: 236
+        height: 428
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 12, y: 0, z: 0, w: 0}
+    - name: SceneryObject_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 627
+        width: 274
+        height: 443
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 0, z: 0, w: 0}
+    - name: SceneryObject_2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 625
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SceneryObject_3
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 627
+        width: 184
+        height: 451
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SceneryObject_4
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 134
+        width: 551
+        height: 849
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SceneryObject_5
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 124
+        width: 471
+        height: 306
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SceneryObject_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 117
+        width: 398
+        height: 323
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
