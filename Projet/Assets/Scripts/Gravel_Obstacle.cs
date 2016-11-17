@@ -24,7 +24,7 @@ public class Gravel_Obstacle : MonoBehaviour {
             Debug.Log("On Gravel");
             /*other.rigidbody.drag = 0.0f;
             other.rigidbody.angularDrag = 0.0f;*/
-			audio.Play();
+			GetComponent<AudioSource>().Play();
             //other.rigidbody.AddForce(0, 0, -2500f);            
             //other.rigidbody.velocity = transform.forward  * Mathf.Lerp(other.rigidbody.velocity.magnitude, other.rigidbody.velocity.magnitude * (0.66f), 0.5f);
 

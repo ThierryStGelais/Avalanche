@@ -16,7 +16,7 @@ public class Avalanche_Move : MonoBehaviour {
 	void Start () {
 		Audio = transform.GetComponentInChildren<AudioSource> ();
 		Player = GameObject.FindGameObjectWithTag ("Player");
-		rigidbody.velocity = new Vector3 (0.0f, 0.0f, speed * GlobalSettings.gameSpeed);
+		GetComponent<Rigidbody>().velocity = new Vector3 (0.0f, 0.0f, speed * GlobalSettings.gameSpeed);
 	}
 	
 	// Update is called once per frame
@@ -33,7 +33,7 @@ public class Avalanche_Move : MonoBehaviour {
         {
             speed = Player.GetComponent<SledScript>().maxWOBoost + 50.0f;
         }
-        rigidbody.velocity = new Vector3(0.0f, 0.0f, speed);
+        GetComponent<Rigidbody>().velocity = new Vector3(0.0f, 0.0f, speed);
         Animation();
 	}
 

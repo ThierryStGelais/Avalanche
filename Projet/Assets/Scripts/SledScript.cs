@@ -123,7 +123,7 @@ public class SledScript : MonoBehaviour
 
     void Update()
     {
-        if (rigidbody.isKinematic) return;
+        if (GetComponent<Rigidbody>().isKinematic) return;
 
         //Debug.Log(anims.GetBool("Boost"));
         //Switch character when both player press the button
@@ -211,9 +211,9 @@ public class SledScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (rigidbody.isKinematic) return;
+        if (GetComponent<Rigidbody>().isKinematic) return;
 
-        if (anims.GetCurrentAnimationClipState(1).Length > 0 && anims.GetCurrentAnimationClipState(1)[0].clip.name == "jump")
+        if (anims.GetCurrentAnimatorClipInfo(1).Length > 0 && anims.GetCurrentAnimatorClipInfo(1)[0].clip.name == "jump")
             boxC.center = boxCJumpCenter;
         else
             boxC.center = boxCCenter;
@@ -305,7 +305,7 @@ public class SledScript : MonoBehaviour
         }
 
         //rigidbody.AddForce(transform.forward * currentSpeed);
-        rigidbody.velocity = transform.forward * movSpeed;
+        GetComponent<Rigidbody>().velocity = transform.forward * movSpeed;
         // rigidbody.velocity = new Vector3(rigidbody.velocity.x, rigidbody.velocity.y, rigidbody.velocity.z + acceleration);
         Mouvement();
         //STurn();

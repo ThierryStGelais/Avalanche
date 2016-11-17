@@ -12,7 +12,7 @@ public class Basic_Controller : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        rigidbody.AddForce(transform.forward * Input.GetAxis("Vertical") * 100*force);
+        GetComponent<Rigidbody>().AddForce(transform.forward * Input.GetAxis("Vertical") * 100*force);
         //rigidbody.AddForce(transform.right * Input.GetAxis("Horizontal") * 100*force);
         transform.RotateAround(transform.up, (0.05f * Input.GetAxis("Horizontal")));
 	}

@@ -24,7 +24,7 @@ public class Test_Move : MonoBehaviour {
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 		float moveVertical = Input.GetAxis ("Vertical");
 		
-		rigidbody.velocity = new Vector3 (moveHorizontal*speed, 0.0f, moveVertical*speed);
+		GetComponent<Rigidbody>().velocity = new Vector3 (moveHorizontal*speed, 0.0f, moveVertical*speed);
 
 	}
 	

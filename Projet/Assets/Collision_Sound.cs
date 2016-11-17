@@ -17,7 +17,7 @@ public class Collision_Sound : MonoBehaviour {
 	{
 		if(other.gameObject.tag == "Obstacle")
 		{
-			audio.Play();
+			GetComponent<AudioSource>().Play();
 		}
 	}
 }
